@@ -12,5 +12,5 @@ For instance, if you define the `main_chain` variable to be <span style="color:r
 </div>
 
 ```bash
-total_qubits = 2 * 7 = 14
+total_qubits = 2 * 10 = 20
 ```
