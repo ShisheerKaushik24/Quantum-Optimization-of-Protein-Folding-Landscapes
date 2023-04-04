@@ -18,6 +18,8 @@ A Pauli operators is created for nearest neighbor interactions. The type of oper
 
 An interaction between 2 beads is encoded using 1 qubit. Given the possibility of interactions between main-main, main-side, side-main, side-side beads, we need at most :math:`4*N*N` qubits to encode all interactions, where :math:`N` equals main_chain_len. Note that some qubits may not be necessary because of no contacts between respective beads. Such qubits are deleted in the compression phase happening during the creation of a final qubit operator for the problem.
 
+Also note that, using a normal coarse grained model on the tetra-hedral lattice the simulation of this system would require **35 qubits**, which is computationally intensive. We therefore introduced a denser encoding of the polymer configuration that requires only **2 qubits per turn** `ti = q2i−1q2i`, reducing the total number of qubits to **22**. This variant generated 5-local (instead of 3-local) terms in the qubit Hamiltonian while keeping the total number of Pauli strings within an affordable range for small instances. To further reduce the number of qubits we also integrate the side chains with the corresponding bead along the primary sequence and neglect interactions with l > 1.
+
 ## Cost operator fuctionality
 
 It is a method for building contact operators in the context of the protein folding problem. Contact operators are mathematical objects used to represent the interactions between pairs of amino acids (beads) in a protein chain.
