@@ -1,19 +1,7 @@
-In the Qiskit implementation of the **protein folding problem**, each **amino acid** is represented by **two qubits**, and each qubit can take on one of *three states* corresponding to the three possible conformations for that amino acid. So in general, the total number of qubits required for a protein with **N** amino acids is approximately **2N** for a *simplified representation* and **4N** for a more *detailed representation*. Therefore, the total number of qubits required is:
+In the Qiskit implementation of the **protein folding problem**, each **amino acid** is represented by **two qubits**, and each qubit can take on one of *three states* corresponding to the three possible conformations for that amino acid.
 
-```bash
-total_qubits = 2 * num_amino_acids # For simplified representation
-total_qubits = 4 * num_amino_acids # For detailed representation
-``` 
-<div class="html">
+## Encoding the qubits into beads 
 
-For instance, if you define the `main_chain` variable to be <span style="color:red">"APRLRFYHIL"</span> and the `side_chains` variable to be **[""] * 10**, then the total number of amino acids in the protein is 10, and the total number of qubits required is:
-
-</div>
-
-```bash
-total_qubits = 2 * 10 = 20 # For simplified representation
-total_qubits = 4 * 10 = 40 # For detailed representation
-```
 A Pauli operators is created for nearest neighbor interactions. The type of operator depends on whether beads belong to the same set, how far they are from each other and whether they host a side chain.
 
 An interaction between 2 beads is encoded using 1 qubit. Given the possibility of interactions between main-main, main-side, side-main, side-side beads, we need at most :math:`4*N*N` qubits to encode all interactions, where :math:`N` equals main_chain_len. Note that some qubits may not be necessary because of no contacts between respective beads. Such qubits are deleted in the compression phase happening during the creation of a final qubit operator for the problem.
