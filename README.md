@@ -1,6 +1,6 @@
 # Quantum Optimization of Protein Folding Landscapes: Exploring Minimum Energy Conformations
 
-Although, in the Qiskit implementation of the **protein folding problem**, the formula 2(n-3) is commonly used as a rough estimate for the number of qubits required to represent a protein molecule with "n" amino acids. This formula assumes that each amino acid can be represented by two qubits and that the backbone of the protein can be represented by a linear chain of qubits with two endpoints.
+Although, in the Qiskit implementation of the **protein folding problem**, the formula `2(n-3)` is commonly used as a rough estimate for the number of qubits required to represent a protein molecule with `n` amino acids. This formula assumes that each amino acid can be represented by two qubits and that the backbone of the protein can be represented by a linear chain of qubits with two endpoints.
 
 While this formula can provide a quick estimate of the number of qubits needed, it is a very simplified model that does not take into account the complexity of the protein structure and the interactions between the amino acids.
 
