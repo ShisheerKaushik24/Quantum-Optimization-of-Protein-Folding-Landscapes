@@ -60,7 +60,7 @@ For example, let's say we have a contact operator with dimensions 10 x 10, where
 By using the index 11 to access the corresponding entry directly, we can avoid the need to compute any other entries in the contact operator. This can significantly reduce the computational cost of computing pairwise interactions between all amino acids in the protein chain.
 
 ## Project Implementation 
-A robust and versatile optimisation scheme was utilized , bringing together variational quantum algorithms specifically adapted to classical cost functions and evolutionary strategies (genetic algorithms), to simulate the folding of the 9 amino acid Bradykinin peptide on 17 qubits.
+A robust and versatile optimisation scheme was utilized , bringing together variational quantum algorithms specifically adapted to classical cost functions and evolutionary strategies (genetic algorithms), to simulate the folding of the 9 amino acid **Bradykinin peptide** on 17 qubits.
 
 <p align="center">
   <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Bradykinin#section=Isomeric-SMILES">
