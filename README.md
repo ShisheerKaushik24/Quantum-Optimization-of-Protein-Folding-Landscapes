@@ -1,3 +1,5 @@
+# Quantum Optimization of Protein Folding Landscapes: Exploring Minimum Energy Conformations
+
 In the Qiskit implementation of the **protein folding problem**, each **amino acid** is represented by **two qubits**, and each qubit can take on one of *three states* corresponding to the three possible conformations for that amino acid.
 
 ## Encoding the qubits into beads 
