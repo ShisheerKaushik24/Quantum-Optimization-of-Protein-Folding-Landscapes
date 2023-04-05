@@ -73,7 +73,7 @@ A robust and versatile optimisation scheme was utilized , bringing together vari
 The above image is the 2-D chemical structure of Bradykini peptide.
 
 <p align="center">
-    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/description.png" width="250" height="150" />
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/description.png" width="400" height="150" />
 </p>
 
 *<p align="center"><small>Source: PubChem</small></p>*
