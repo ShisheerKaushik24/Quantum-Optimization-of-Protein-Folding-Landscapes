@@ -57,11 +57,39 @@ For example, let's say we have a contact operator with dimensions 10 x 10, where
 
 By using the index 11 to access the corresponding entry directly, we can avoid the need to compute any other entries in the contact operator. This can significantly reduce the computational cost of computing pairwise interactions between all amino acids in the protein chain.
 
+## Project Implementation 
+A robust and versatile optimisation scheme was utilized , bringing together variational quantum algorithms specifically adapted to classical cost functions and evolutionary strategies (genetic algorithms), to simulate the folding of the 9 amino acid Bradykinin peptide on 17 qubits.
 
+<p align="center">
+  <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Bradykinin#section=Isomeric-SMILES">
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/structure.png" width="100" height="150" />
+  </a>
+</p>
 
+*<p align="center"><small>Source: PubChem</small></p>*
 
+The above image is the 2-D chemical structure of Bradykini peptide.
 
+<p align="center">
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/description.png" width="100" height="150" />
+</p>
 
+*<p align="center"><small>Source: PubChem</small></p>*
 
+The above image is the molecular description of Bradykini peptide.
+
+<p align="center">
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/structure.png" width="100" height="150" />
+</p>
+
+*<p align="center"><small>Source: PubChem</small></p>*
+
+The above image is the 2-D chemical structure of Bradykini peptide.
+
+From the sequence of turns we got the cartesian coordinates of each of the aminoacids of the protein. And finally, the structure plot of the protein in 3D is created as seen below. 
+
+<p align="center">
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/protein-structure.png" width="100" height="150" />
+</p>
 
 
