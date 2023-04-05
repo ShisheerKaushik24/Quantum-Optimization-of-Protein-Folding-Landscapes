@@ -64,7 +64,7 @@ A robust and versatile optimisation scheme was utilized , bringing together vari
 
 <p align="center">
   <a href="https://pubchem.ncbi.nlm.nih.gov/compound/Bradykinin#section=Isomeric-SMILES">
-    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/structure.png" width="100" height="150" />
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/structure.png" width="250" height="150" />
   </a>
 </p>
 
@@ -73,7 +73,7 @@ A robust and versatile optimisation scheme was utilized , bringing together vari
 The above image is the 2-D chemical structure of Bradykini peptide.
 
 <p align="center">
-    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/description.png" width="100" height="150" />
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/description.png" width="250" height="150" />
 </p>
 
 *<p align="center"><small>Source: PubChem</small></p>*
@@ -83,5 +83,5 @@ The above image is the molecular description of Bradykini peptide.
 From the sequence of turns we got the cartesian coordinates of each of the aminoacids of the protein. And finally, the structure plot of the protein in 3D is created as seen below. 
 
 <p align="center">
-    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/protein-structure.png" width="100" height="150" />
+    <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-2/blob/master/asset/protein-structure.png" width="250" height="150" />
 </p>
